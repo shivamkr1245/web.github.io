@@ -706,4 +706,7 @@
   .ii{
     grid-template-columns: repeat(1,1fr);
   }
+  .two p::selection{
+    display: none;
+  }
 }
