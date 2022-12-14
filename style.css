@@ -272,12 +272,6 @@
     width: 80%;
     border-radius: 1rem
   }
-   .gta,.so{
-    display: none;
-  }
-  .fd,.dr{
-    cursor: progress;
-  }
 }
 @media screen and (max-width:985px) {
   .one{
@@ -396,6 +390,12 @@
   .arrange{
     grid-template-columns: repeat(2,1fr);
   }
+  .gta,.so{
+    display: none;
+  }
+  .fd,.dr{
+    cursor: progress;
+  }
 }
 .three{
   width: 100%;
@@ -434,7 +434,7 @@
   border-radius: 0.2rem;
   cursor: pointer;
 }
-.m:hover{
+.as:hover{
   color: #2294ed;
 }
 .assest{
@@ -485,5 +485,225 @@
   }
   .lol{
     padding: 2rem 1rem;
+  }
+}
+.ox{
+  width: 100%;
+  height: auto;
+  padding: 2.5rem 8rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 5rem;
+}
+.mk{
+  grid-template-areas: "sv te";
+}
+.sv{
+  grid-area: sv;
+  width: 100%;
+  height: auto;
+}
+.te{
+  grid-area: te;
+}
+.ck{
+  grid-template-areas: "textz svz";
+}
+.text_z{
+  grid-area: textz;
+}
+.sv_z{
+  grid-area: svz;
+  width: 100%;
+  height: auto;
+}
+.zk{
+  grid-template-areas: "svx textx";
+}
+.sv_x{
+  grid-area: svx;
+  width: 100%;
+  height: auto;
+}
+.text_x{
+  grid-area: textx;
+} 
+.img_SVG{
+  width: 100%;
+}
+.common_TEXT{
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 0.8rem;
+  place-items: center;
+  place-content: center;
+}
+.fi{
+  color: #183b56;
+  font-size: 1.1rem;
+  justify-self: start;
+}
+.si{
+  font-size: 2rem;
+  line-height:2.5rem;
+  color: #183b56;
+  justify-self: start;
+}
+.sm{
+  color: #577592;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.sa{
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: start;
+}
+.imj{
+  height: 6vh;
+}
+.sz{
+  position: relative;
+}
+.omk{
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  z-index: -1;
+}
+.jai_mahakal{
+  color: #183b56;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+.zs{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo_team{
+  height: 10vh;
+}
+.mi{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 0.2rem;
+  justify-items: start;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.eki{
+  color: #577592;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+@media screen and (max-width:1000px){
+  .ox{
+    grid-template-columns: repeat(1,1fr);
+    padding: 2.5rem 0.1rem;
+  }
+  .mk{
+    grid-template-areas: "sv" "te";
+  }
+  .ck{
+    grid-template-areas: "svz" "textz";
+  }
+  .zk{
+    grid-template-areas: "svx" "textx";
+  }
+}
+.qq{
+  width: 100%;
+  height: auto;
+  padding: 2.5rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 2rem;
+  place-items: center;
+  place-content: center;
+}
+.i{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 1rem;
+  place-items: center;
+}
+.ap{
+  font-size: 2.8rem;
+  color: #183b56;
+}
+.ii{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1.5rem;
+}
+.card_card{
+  width: 100%;
+  height: 28rem;
+  padding: 1.5rem;
+  display: grid;
+  justify-items: center;
+  align-items: end;
+  border-radius: 2px;
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+}
+.pi{
+  font-family: "Averta PE", sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.card_card:nth-child(1){
+  background: url("./image/asset\ 36.jpeg") no-repeat 100% 100%;
+}
+.card_card:nth-child(2){
+  background: url("./image/asset\ 37.jpeg") no-repeat 100% 100%;
+}
+.card_card:nth-child(3){
+  background: url("./image/asset\ 38.jpeg") no-repeat 100% 100%;
+}
+.card_card:nth-child(4){
+  background: url("./image/asset\ 39.jpeg") no-repeat 100% 100%;
+}
+.card_card:hover{
+  box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%);
+}
+@media screen and (max-width:1200px) and (min-width:800px){
+  .qq{
+    padding: 2.5rem 4rem;
+  }
+  .ii{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width:800px) and (min-width:500px){
+  .qq{
+    padding: 2.5rem 1.5rem;
+  }
+  .ii{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width:500px){
+  .card_card{
+    height: 22rem;
+  }
+  .qq{
+    padding: 2.5rem 0.2rem;
+  }
+  .ii{
+    grid-template-columns: repeat(1,1fr);
   }
 }
