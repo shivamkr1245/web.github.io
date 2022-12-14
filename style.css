@@ -272,6 +272,12 @@
     width: 80%;
     border-radius: 1rem
   }
+   .gta,.so{
+    display: none;
+  }
+  .fd,.dr{
+    cursor: progress;
+  }
 }
 @media screen and (max-width:985px) {
   .one{
